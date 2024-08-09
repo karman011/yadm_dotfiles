@@ -131,6 +131,6 @@ zinit light-mode wait'0c' lucid for \
 if [ -f "${HOME}/.local/bin/micromamba" ]; then
     export MAMBA_EXE="${HOME}/.local/bin/micromamba"
     export MAMBA_ROOT_PREFIX="${HOME}/micromamba"
-    alias micromamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+    alias micromamba="$MAMBA_EXE"
 fi
 
